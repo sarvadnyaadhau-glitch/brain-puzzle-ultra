@@ -548,16 +548,14 @@
 
         // --- ADVERTISEMENT CONTROLLER (1-Level Frequency Framework) ---
         const AdManager = {
-            triggerInterstitial() {
-                console.log("🎬 Interstitial Ad Triggered (Frequency Counter: 1 Level Clear).");
-                
-            showRewardedAd() {
-                if(confirm("🎥 View a quick sponsored video to reveal the strategy hint?")) 
-                   
-                }
-            }
-        };
+    triggerInterstitial() {
+        if (typeof show_256223 === "function") {
+            show_256223();
+        }
+    },
 
+    showRewardedAd() {}
+};
         // --- CORE GAME ENGINE LAYER ---
         const GameEngine = {
             current: null, states: [],
