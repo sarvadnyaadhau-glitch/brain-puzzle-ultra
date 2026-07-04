@@ -550,11 +550,10 @@
         const AdManager = {
             triggerInterstitial() {
                 console.log("🎬 Interstitial Ad Triggered (Frequency Counter: 1 Level Clear).");
-                alert("🎬 [Interstitial Ad] \nThank you for playing Brain Puzzle Ultra! This ad helps support our design updates. Your game resumes immediately.");
-            },
+                
             showRewardedAd() {
-                if(confirm("🎥 View a quick sponsored video to reveal the strategy hint?")) {
-                    alert(`💡 CLUE: ${GameEngine.current.hint}`);
+                if(confirm("🎥 View a quick sponsored video to reveal the strategy hint?")) 
+                   
                 }
             }
         };
